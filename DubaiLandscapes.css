@@ -1,0 +1,275 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.header{
+    grid-column-start: 1 ;
+    grid-column-end: 7 ;
+    grid-row-start:1;
+    grid-row-end: 2;
+}
+
+.image{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end:3 ;
+}
+
+.heading2{
+    grid-column-start: 1;
+    grid-column-end: 7 ;
+    grid-row-start: 3;
+    grid-row-end:4 ;
+}
+
+.background1{
+    grid-column-start: 2;
+    grid-column-end: 6 ;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+}
+
+.content1{
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+}
+
+.content2{
+    grid-column-start:4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+}
+
+.background2{
+    grid-column-start: 2;
+    grid-column-end: 6 ;
+    grid-row-start: 5;
+    grid-row-end:6 ;
+}
+
+.content3{
+    grid-column-start:1 ;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end:6 ;
+}
+
+.content4{
+    grid-column-start:4 ;
+    grid-column-end:7 ;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end:7 ;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+body{
+    background-color: #F8F5EB;
+}
+
+.logo{
+    width: 200px;
+    margin: 20px;
+    float: left;
+}
+
+.navbar{
+    float: right;
+
+}
+
+.navbar a{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4A4632;
+    font-size: 1.3rem;
+    text-decoration: none;
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main-img{
+    width: 100%;
+    
+}
+
+h1{
+    font-family: "Rantera"; 
+    font-size: 4rem;
+    color: #F8F5EB;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.button1{
+    width: 10%;
+    background-color: #A8A191;
+    color: #F8F5EB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    border: none;
+    padding: 1% 2%;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: -400px;
+    left: 42%;
+    transform: translate(-50%, -50%)
+}
+
+.button2{
+    width: 10%;
+    background-color: #A8A191;
+    color: #F8F5EB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    border: none;
+    padding: 1% 2%;
+    text-align: center; 
+    border-radius: 10px;
+    position: absolute;
+    top: -400px;
+    left: 58%;
+    transform: translate(-50%, -50%)
+}
+
+h2{
+    font-family: "Rantera";
+    color: #4A4632;
+    font-size: 35px;
+    background-color: #A8A191;
+    text-align: center;
+    margin-top: -1%;
+    padding: 50px;
+}
+
+.background1{
+    border-radius: 10px;
+    width: 80%;
+    background-color: #A8A191;
+    background-clip: padding-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+
+.background2{
+    border-radius: 10px;
+    width: 80%;
+    background-color: #A8A191;
+    background-clip: padding-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+
+.gardenimg1{
+    height: 500px;
+    margin-left: 900px;
+    margin-top: -400px;
+    border-radius: 10px;
+    
+}
+
+.content1{
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    
+}
+
+.background1 p{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.gardenimg2{
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.content2{
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.background2 p{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: left;
+    margin-top: 60px;
+    margin-right: 60px;
+    float: right;
+
+}
+
+.footer{
+    background-color: #F8F5EB;
+}
+
+hr {
+    border:none;
+    height: 20px;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #4A4632;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+  }
+
+
+
+h3{
+    color: #4A4632;
+    font-family: "Rantera";
+    font-size: 35px;
+    text-align: center;
+    margin-top: -1%;
+    padding: 50px;
+}
+
+.contactinfo{
+    width: 50px;
+    padding: 20px;   
+}
+
+.contact{
+    margin-left: 42.5%;
+    margin-top: -20px;
+}
+
+.footer p{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4A4632;
+    font-size: 1rem;
+    display: block;
+    margin-left: 38.5%;
+    margin-top: 20px;
+}
